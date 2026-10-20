@@ -1,0 +1,18 @@
+package com.example.pageturner.ui.components.common
+
+import androidx.compose.foundation.Image
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.res.painterResource
+
+@Composable
+fun Logo(){
+    Image(
+        painter = painterResource(com.example.pageturner.R.drawable.logo),
+        contentDescription = "logo",
+        contentScale = ContentScale.Crop,
+        modifier = Modifier.fillMaxWidth(0.5f)
+    )
+}

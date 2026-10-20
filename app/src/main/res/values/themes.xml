@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.PageTurner" parent="android:Theme.Material.Light.NoActionBar" >
+
+
+        <!-- Background shown during app launch -->
+        <item name="windowSplashScreenBackground">#081611</item>
+
+        <!-- Icon shown in the center of the splash screen -->
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+
+        <!-- Theme used after the splash screen -->
+        <item name="postSplashScreenTheme">@style/Theme.PageTurner</item>
+
+    </style>
+</resources>
